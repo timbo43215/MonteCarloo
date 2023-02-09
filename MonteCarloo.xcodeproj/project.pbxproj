@@ -14,6 +14,20 @@
 		ABBD351E29957BD2003ECD39 /* MonteCarlooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD351D29957BD2003ECD39 /* MonteCarlooTests.swift */; };
 		ABBD352829957BD2003ECD39 /* MonteCarlooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD352729957BD2003ECD39 /* MonteCarlooUITests.swift */; };
 		ABBD352A29957BD2003ECD39 /* MonteCarlooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD352929957BD2003ECD39 /* MonteCarlooUITestsLaunchTests.swift */; };
+		ABBD353729957CA2003ECD39 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD353629957CA2003ECD39 /* DrawingView.swift */; };
+		ABBD353829957CA2003ECD39 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD353629957CA2003ECD39 /* DrawingView.swift */; };
+		ABBD353929957CA2003ECD39 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD353629957CA2003ECD39 /* DrawingView.swift */; };
+		ABBD353A29957CA8003ECD39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD350D29957BD1003ECD39 /* ContentView.swift */; };
+		ABBD353B29957CA8003ECD39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD350D29957BD1003ECD39 /* ContentView.swift */; };
+		ABBD353D29957D28003ECD39 /* MonteCarloEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD353C29957D28003ECD39 /* MonteCarloEx.swift */; };
+		ABBD353E29957D28003ECD39 /* MonteCarloEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD353C29957D28003ECD39 /* MonteCarloEx.swift */; };
+		ABBD353F29957D28003ECD39 /* MonteCarloEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD353C29957D28003ECD39 /* MonteCarloEx.swift */; };
+		ABBD354129957D66003ECD39 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD354029957D66003ECD39 /* BoundingBox.swift */; };
+		ABBD354229957D66003ECD39 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD354029957D66003ECD39 /* BoundingBox.swift */; };
+		ABBD354329957D66003ECD39 /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD354029957D66003ECD39 /* BoundingBox.swift */; };
+		ABBD354529957F54003ECD39 /* e^x.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD354429957F54003ECD39 /* e^x.swift */; };
+		ABBD354629957F54003ECD39 /* e^x.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD354429957F54003ECD39 /* e^x.swift */; };
+		ABBD354729957F54003ECD39 /* e^x.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBD354429957F54003ECD39 /* e^x.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +59,10 @@
 		ABBD352329957BD2003ECD39 /* MonteCarlooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonteCarlooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBD352729957BD2003ECD39 /* MonteCarlooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarlooUITests.swift; sourceTree = "<group>"; };
 		ABBD352929957BD2003ECD39 /* MonteCarlooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarlooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABBD353629957CA2003ECD39 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		ABBD353C29957D28003ECD39 /* MonteCarloEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloEx.swift; sourceTree = "<group>"; };
+		ABBD354029957D66003ECD39 /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		ABBD354429957F54003ECD39 /* e^x.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "e^x.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,10 @@
 			children = (
 				ABBD350B29957BD1003ECD39 /* MonteCarlooApp.swift */,
 				ABBD350D29957BD1003ECD39 /* ContentView.swift */,
+				ABBD353629957CA2003ECD39 /* DrawingView.swift */,
+				ABBD353C29957D28003ECD39 /* MonteCarloEx.swift */,
+				ABBD354029957D66003ECD39 /* BoundingBox.swift */,
+				ABBD354429957F54003ECD39 /* e^x.swift */,
 				ABBD350F29957BD2003ECD39 /* Assets.xcassets */,
 				ABBD351429957BD2003ECD39 /* MonteCarloo.entitlements */,
 				ABBD351129957BD2003ECD39 /* Preview Content */,
@@ -259,8 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBD354129957D66003ECD39 /* BoundingBox.swift in Sources */,
+				ABBD353729957CA2003ECD39 /* DrawingView.swift in Sources */,
 				ABBD350E29957BD1003ECD39 /* ContentView.swift in Sources */,
+				ABBD353D29957D28003ECD39 /* MonteCarloEx.swift in Sources */,
 				ABBD350C29957BD1003ECD39 /* MonteCarlooApp.swift in Sources */,
+				ABBD354529957F54003ECD39 /* e^x.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBD354229957D66003ECD39 /* BoundingBox.swift in Sources */,
 				ABBD351E29957BD2003ECD39 /* MonteCarlooTests.swift in Sources */,
+				ABBD353829957CA2003ECD39 /* DrawingView.swift in Sources */,
+				ABBD353E29957D28003ECD39 /* MonteCarloEx.swift in Sources */,
+				ABBD353A29957CA8003ECD39 /* ContentView.swift in Sources */,
+				ABBD354629957F54003ECD39 /* e^x.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABBD353F29957D28003ECD39 /* MonteCarloEx.swift in Sources */,
+				ABBD353929957CA2003ECD39 /* DrawingView.swift in Sources */,
 				ABBD352A29957BD2003ECD39 /* MonteCarlooUITestsLaunchTests.swift in Sources */,
+				ABBD354329957D66003ECD39 /* BoundingBox.swift in Sources */,
+				ABBD353B29957CA8003ECD39 /* ContentView.swift in Sources */,
+				ABBD354729957F54003ECD39 /* e^x.swift in Sources */,
 				ABBD352829957BD2003ECD39 /* MonteCarlooUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
