@@ -60,7 +60,7 @@ class MonteCarloEx: NSObject, ObservableObject {
         
         ///Calculates the value of π from the area of a unit circle
         
-        Ex = (totalIntegral/Double(totalGuesses)) * boundingBoxCalculator.calculateSurfaceArea(numberOfSides: 2, lengthOfSide1: 1.0, lengthOfSide2: 1.0, lengthOfSide3: 0.0)
+        Ex = 1 - ((totalIntegral/Double(totalGuesses)) * boundingBoxCalculator.calculateSurfaceArea(numberOfSides: 2, lengthOfSide1: 1.0, lengthOfSide2: 1.0, lengthOfSide3: 0.0))
         
         await updateExString(text: "\(Ex)")
         

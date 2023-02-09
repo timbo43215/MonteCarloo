@@ -8,5 +8,5 @@
 import Foundation
 
 func eX(X: Double) -> Double {
-    return exp(-X)
+    return 1 - exp(-X)
 }
